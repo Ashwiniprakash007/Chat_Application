@@ -1,0 +1,82 @@
+.user-list-container {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    max-width: 400px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.logged-in-user {
+    position: absolute;
+    top: -31px;
+    right: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.logged-in-user .user-name {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.logged-in-user .status-dot {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.user-list-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.user-list-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.user-list-container li {
+    margin: 10px 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.user-list-container a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+}
+
+.user-list-container li:hover {
+    background-color: #f1f1f1;
+}
+.notification {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.blue-dot {
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-left: 10px;
+}
